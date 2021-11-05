@@ -1,62 +1,150 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-    <title> Root.com </title>
+    <title> Root </title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
 
+        }
+    </style>
 </head>
+
 <body>
 
-    
-    <h1> Bienvenidos a Root.com </h1>
-    <h2> <i>El Mejor Sitio Web de Bienes Raices</i> </h2>
-    <form>
-        
+
+
+
+
+    <header>
+        <h1 id="Titulo">Root</h1>
+    </header>
+    <section>
+        <article class="post">
+            <h2>Acerca de Nosotros</h2>
+            <p>
+                <span style="color:darkorchid;">Root</span> es una institución <i>inmobiliaria</i> privada,
+                creada
+                con
+                la finalidad de satisfacer las necesidades
+                de las personas. Simplificamos sus vidas sin salir de la comodidad de su hogar para comprar, vender o
+                alquilar un inmueble, cubriendo toda la zona Este de la isla. Nació en La Romana, República Dominicana
+                el 24
+                de
+                mayo del 2019.
+                Su objeto social fundamental es la prestación de servicios relativos a la propiedad inmobiliaria,
+                Marketing
+                Digital,
+                intermediación en la compra, venta y alquiler de inmuebles tales como: casas, apartamentos, solares,
+                terrenos,
+                proyectos; (residenciales, comerciales, industriales y turísticos).
+            </p>
+            <img src="imagenes/logo.png" width="400" height="200" />
+            <p>
+                Mas allá de su tradicional liderazgo en la forma de vender inmuebles; Las políticas económicas
+                y de clase, a través del <span style="color: blue;"> marketing digital </span> y como parte de su
+                estrategia
+                de
+                diversificación,
+                decimos Acerca de Root que ha extendido su apoyo a los más importantes sectores productivos
+                del país, consolidando su participación en el sistema financiero dominicano trabajando de la
+                mano con este, para referir a sus clientes y optar por financiamientos para la adquisición de
+                sus viviendas.
+            </p>
+            <p>
+                Root ha sentado las bases para continuar su crecimiento sostenido en un mercado inmobiliario cada vez
+                más
+                competitivo: El capital humano de calidad excepcional, la estrategia de vanguardia, el trabajo en equipo
+                y la tecnología de Punta.
+            </p>
+            <p>
+                Trabajamos de la mano con un equipo de profesionales del área (Arquitectos, Ingenieros, Agrimensores,
+                Tasadores,
+                Corredores, Constructoras etc).
+            </p>
+        </article>
+        <article class="post"> 
+        <h3>Propiedades en venta</h3>
+        <table style=" height: 150px;   width: 500px;">
+            <!--solo para que algunos navegadores hagan algunas funciones-->
+            <thead>
+                <tr>
+                    <th>Propiedades</th>
+                    <th>Precios</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Villa Arpon</td>
+                    <td>6,000,000$RD</td>
+                </tr>
+                <tr>
+                    <td>Villa en Casa de Campo</td>
+                    <td>11,500,000$RD</td>
+                </tr>
+                <tr>
+                    <td>Villa Torino</td>
+                    <td>9,000,000$RD</td>
+                </tr>
+                <tr>
+                    <td>Edificio Don Diego 1</td>
+                    <td>20,000,000$RD</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Total: 46,500,000$RD</td>
+            </tfoot>
+        </table>
+            <br>
+    <img src="Imagenes/1x.jpg" height="200" width="400">
+    </section>
+
+
+    <br>
+
+
+    <br>
+    <h3>Servicios que podemos ofrecerle</h3>
+    <ul>
+        <li>Compra de bienes</li>
+        <li>Rentas</li>
+        <li>gestion de administracion</li>
+        <li>Prestamos hipotecarios</li>
+        <li>Prestamos internos</li>
+    </ul>
+
+    <form action="/formulario" method="get">
         <label for="Buscar">Buscar</label>
-        <input type="text" id="Buscar" name="Buscar" placeholder="escriba aqui..."/>
-        <br> 
-        <label for="comentario">comentario</label>
-        <textarea id="comentario" name="comentario" placeholder="comente aqui..." cols="30" rows="10" ></textarea>
-            
+        <input type="text" id="buscar" name="Buscar" placeholder=" Ej; Que significa Root ?" />
+        <input type="submit" />
+        <br>
     </form>
-    
-        <p> 
-         
-         Acerca de Root. es una institución inmobiliaria privada, creada con la finalidad de satisfacer las necesidades 
-         de las personas. Simplificamos sus vidas sin salir de la comodidad de su hogar para comprar, vender o 
-         alquilar un inmueble, cubriendo toda la zona Este de la isla. Nació en La Romana, República Dominicana el 24 de mayo del 2019.
-         Su objeto social fundamental es la prestación de servicios relativos a la propiedad inmobiliaria, Marketing Digital,
-         intermediación en la compra, venta y alquiler de inmuebles tales como: casas, apartamentos, solares, terrenos,
-          proyectos; (residenciales, comerciales, industriales y turísticos). 
-        </p>  
-        
-        <p>
-         Mas allá de su tradicional liderazgo en la forma de vender inmuebles; Las políticas económicas
-         y de clase, a través del <span style="color: blue;"> marketing digital </span> y como parte de su estrategia de diversificación,
-         decimos Acerca de Root que ha extendido su apoyo a los más importantes sectores productivos
-         del país, consolidando su participación en el sistema financiero dominicano trabajando  de la 
-         mano con este, para referir a sus clientes y optar por financiamientos para la adquisición de
-         sus viviendas.
-        </p>
-        
-        
-        <p>
-         Root ha sentado las bases para continuar su crecimiento sostenido en un mercado inmobiliario cada vez más
-         competitivo: El capital humano de calidad excepcional, la estrategia de vanguardia, el trabajo en equipo
-         y la tecnología de Punta.
-        </p> 
+    <input type="file" />
+    <br>
+    <br>
+    <h3>Ayudenos dando su feedback para mejorar nuestros servicios web</h3>
+    <br>
+    <form>
+        <label for="correo">correo</label>
+        <input id="correo" name="correo" placeholder="introduzca su correo..." />
+        <br>
+        <label for="comentario">comentario</label>
+        <br>
+        <textarea cols="50" rows="5" id="comentario" name="comentario" placeholder="comente aqui...">default</textarea>
+        <br>
+        <button type="reset">refrescar</button>
+        <button type="submit">enviar</button>
+    </form>
+    <footer>
+        <a href="#Titulo">Volver al inicio</a>
+        <a href="mailto:Manondiego98@gmail.com">Contactanos</a>
+        <a target="_blank" href="https://www.google.com.do">Ir al google</a>
+        <p>Copyright 2021 - todos los derechos reservados.</p>
+    </footer>
 
-         
-         <p> 
-         Trabajamos de la mano con un equipo de profesionales del área (Arquitectos, Ingenieros, Agrimensores, Tasadores,
-         Corredores, Constructoras etc).
-         </p>
-         
-         <a target="_blank" href= "http://www.Google.com.do"> Ir al buscador</a>
-
-         <img src="imagenes/logo.png"  width="400" height="200"/>
-
-    </body>
-
-
- 
+</body>
